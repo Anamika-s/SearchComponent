@@ -1,0 +1,16 @@
+  .div1{
+     width: 40%;
+     border: 1px solid red;
+     height: 200px;
+     float: left;
+     background-color: yellow;
+  }
+
+  .div2
+  {
+    width: 40%;
+    border: 1px solid red;
+    height: 200px;
+    float: right;
+    background-color: green;
+  }

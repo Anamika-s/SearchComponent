@@ -1,0 +1,21 @@
+pipe comp works
+
+
+ <div *ngIf="employees.length>0">
+ <h1> List  of Employees </h1>
+ <table class="table">
+   <tr>
+     <th> Employee Code  </th>
+     <th> Employee Name </th>
+     <th> Annual Salary </th>
+     <th> Date of Birth </th>
+   </tr>
+   <tr *ngFor="let employee of employees">
+     <td> {{employee.code |uppercase}} </td>
+     <td> {{employee.name |titlecase| gender:employee.gender}}</td>
+     <td> {{employee.annualSalary | currency:"Rs." }}</td>
+     <td> {{employee.dateOfBirth | date:"mediumDate" | uppercase }}</td>
+   </tr>
+ </table>
+   
+ </div>

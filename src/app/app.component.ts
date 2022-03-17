@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular-Demo';
+  name ="Deepak";
+
+  todayDate = new Date();
+  jsonval = {name :"Ajay", age : 25, address :{address1:"Calcutta", address2:"Delhi"}};
+  months=["Jan", "Feb", "March", "April" ,"May" , "June", "July", "Aug"];
+  
+
+
 }
